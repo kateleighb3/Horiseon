@@ -38,8 +38,7 @@ header h1 {
 /* removed this:
 .header div ul {
     list-style-type: none;
-}
-*/
+}*/
 
 /*Changed .header div ul li to li*/
 li {
@@ -57,23 +56,14 @@ p {
 }
 /*Removed .hero*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* changed from .benefits to aside*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -82,6 +72,27 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+/*Changed from .footer to footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer, h2 {
+    font-size: 20px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .benefit-lead {
@@ -184,15 +195,4 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
